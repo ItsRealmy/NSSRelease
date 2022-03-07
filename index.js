@@ -9,7 +9,7 @@ function timeUntil() {
     let _day = _hour * 24;
 
     const setTime = () => {
-        let now = Date().now;
+        let now = Date.now();
         let distance = end - now;
         if (distance < 0) {
             document.querySelector(".time-left").innerText = "NSS has been released!";
