@@ -12,7 +12,7 @@ function timeUntil() {
         let now = new Date();
         let distance = end - now;
         if (distance < 0) {
-            document.querySelector(".time-left").innerHTML = "NSS has been released!";
+            document.querySelector(".time-left").innerText = "NSS has been released!";
 
             return;
         }
