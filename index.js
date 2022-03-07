@@ -1,7 +1,7 @@
 timeUntil();
 
 function timeUntil() {
-    let end = new Date(1651204800000);
+    let end = 1651204800000;
 
     let _second = 1000;
     let _minute = _second * 60;
@@ -9,7 +9,7 @@ function timeUntil() {
     let _day = _hour * 24;
 
     const setTime = () => {
-        let now = new Date();
+        let now = Date().now;
         let distance = end - now;
         if (distance < 0) {
             document.querySelector(".time-left").innerText = "NSS has been released!";
