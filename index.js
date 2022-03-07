@@ -1,7 +1,7 @@
 timeUntil();
 
 function timeUntil() {
-    let end = new Date(Date.UTC(2022, 3, 29, 5));
+    let end = new Date(1651204800000);
 
     let _second = 1000;
     let _minute = _second * 60;
