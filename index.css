@@ -36,3 +36,13 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+a {
+    color: #00a1c7;
+}
+
+a:hover {
+    background: -webkit-linear-gradient(0deg, #0167CA, #00D8C4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
